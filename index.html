@@ -1,43 +1,127 @@
 <!DOCTYPE html>
-<html lang="ukr">
+<html lang="uk">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
+
     <link rel="stylesheet" href="./style.css" />
-    <link rel="stylesheet" href="./port.css" />
-    <title>Портфолио</title>
+    <title>Портфоліо</title>
   </head>
   <body>
-    <section class="home" style="background-image: url(./img/bg_img.jpg)">
-      <div class="container">
-        <nav class="nav">
-          <a href="#" class="logo">
-            <img src="./img/icons/logo.png" alt="logo" class="logo__img" />
-          </a>
-          <ul class="nav__list">
-            <li class="nav__item">
-              <a href="#" class="nav__link">Про мене</a>
+    <main>
+      <section class="home" style="background-image: url(./img/bg__img.png)">
+        <div class="container">
+          <div class="nav">
+            <a class="logo" href="#">
+              <img src="./img/icons/logo.png" alt="logo" class="nav__img" />
+            </a>
+            <ul class="nav__list">
+              <li class="nav__item">
+                <a href="" class="nav__link">Про мене</a>
+              </li>
+              <li class="nav__item">
+                <a href="" class="nav__link">Навички</a>
+              </li>
+              <li class="nav__item">
+                <a href="" class="nav__link">Портфоліо</a>
+              </li>
+              <li class="nav__item">
+                <a href="" class="nav__link">Контакти</a>
+              </li>
+            </ul>
+            <button class="menu-btn">
+              <span class="menu__item">menu</span>
+            </button>
+          </div>
+
+          <div class="home__inner">
+            <h1 class="home__title">Привіт, я Магаляс Дмитро</h1>
+            <h2 class="home__subtitle">frontend-розробник</h2>
+          </div>
+          <a href="#" class="home__link">Дивитись роботи</a>
+        </div>
+      </section>
+      <section class="about">
+        <div class="container">
+          <h1 class="about__title">Про мене</h1>
+          <p class="about__text">
+            Вітаю всіх на своєму сайті! Мене звуть Дмитро, я з Вінниці. Займаюся
+            фронтенд-розробкою понад рік. До розробки займався плаваням. Але
+            після початку війни було дуже багато серен і тому я перестав туди
+            ходити і мама знайшла мені заміну
+          </p>
+          <p class="about__text">
+            З того часу пройшов вогонь, воду та мідні труби. Навчання давалося
+            складно. Щоденна робота над навичками та старанність, з якою я
+            підходив до навчання, вже через кілька місяців принесли плоди – я
+            взяв перше замовлення на фрілансі. З відгуками клієнтів та
+            прикладами робіт можна ознайомитись нижче.
+          </p>
+        </div>
+      </section>
+
+      <section class="skills">
+        <div class="container">
+          <h2 class="title">Навички</h2>
+          <div class="skills__inner">
+            <img
+              src="./img/portrait 2.jpg"
+              alt="my photo"
+              class="skills__img"
+            />
+            <ul class="skills__list">
+              <li class="skills__item">
+                <p class="skills__in">HTML</p>
+                <div class="skills__graphic">
+                  <span class="skills__rating"></span>
+                </div>
+              </li>
+              <li class="skills__item">
+                <p class="skills__in">CSS</p>
+                <div class="skills__graphic">
+                  <span class="skills__rating"></span>
+                </div>
+              </li>
+              <li class="skills__item">
+                <p class="skills__in">JS</p>
+                <div class="skills__graphic">
+                  <span class="skills__rating"></span>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="services">
+        <div class="container">
+          <h2 class="title">
+            услуги
+          </h2>
+          <ul class="services__list">
+            <li class="services__item">
+              <img class="services__img" src="./img/icons/mark.svg" alt="#">
+              <h3 class="services__title">Вёрстка проектов</h3>
+              <p class="services__descriotion">Сделаю качественную вёрстку вашего  проекта по предоставленному макету или примеру</p>
             </li>
-            <li class="nav__item">
-              <a href="./shop.html" class="nav__link">Навички</a>
-            </li>
-            <li class="nav__item">
-              <a href="./about.html" class="nav__link">Портфоліо</a>
-            </li>
-            <li class="nav__item">
-              <a href="./contacts.html" class="nav__link">Контакты</a>
+            <li class="services__item">
+              <img class="services__img" src="./img/icons/chat__icon.svg" alt="#">
+              <h3 class="services__title">Поддержка сайта</h3>
+              <p class="services__descriotion">Гарантирую поддержку вашего сайта на протяжениии 30 дней после сдача проекта</p>
             </li>
           </ul>
-        </nav>
-
-        <div class="home__inner">
-          <h1 class="home__title">Привіт, я Магаляс Дмитро</h1>
-          <h2 class="home__sub-title">frontend-розробник</h2>
+          
         </div>
-        <a href="#" class="home__link">Дивитись роботи</a>
-        
-      </div>
-    </section>
+      </section>
+
+    </main>
+    <script src="./index.js"></script>
   </body>
 </html>
