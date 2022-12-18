@@ -259,15 +259,46 @@ body {
 
 /* skells */
 
-.skills {
-  padding: 140px 0 100px;
+.skils {
   background-color: #f6f6f8;
 }
-
-.skills__inner{
+.skils__inner-all {
   display: flex;
-  justify-content: space-between;
+
   align-items: center;
+}
+.skils__img {
+  padding-bottom: 140px;
+  margin-bottom: 140px;
+}
+.skils__list {
+  margin-left: 90px;
+}
+.skils__item {
+  margin-top: 85.71px;
+  display: flex;
+  align-items: center;
+}
+.skils__item:first-child {
+  margin-top: 0;
+}
+.skils__in {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 100%;
+  color: #333333;
+  width: 55px;
+  margin-right: 10px;
+}
+.skils__rating {
+  background-color: #2352de;
+  height: 32px;
+  display: block;
+}
+.skils__graphic {
+  background-color: #dbdbed;
+  width: 600px;
+  height: 32px;
 }
 
 /* services */
