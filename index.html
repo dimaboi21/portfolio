@@ -83,7 +83,7 @@
               </li>
               <li class="skils__item">
                 <p class="skils__in">CSS</p>
-                <div class="skils__graphic">        
+                <div class="skils__graphic">
                   <span class="skils__rating" style="width: 40%"></span>
                 </div>
               </li>
@@ -100,25 +100,175 @@
 
       <section class="services">
         <div class="container">
-          <h2 class="title">
-            услуги
-          </h2>
+          <h2 class="title">услуги</h2>
           <ul class="services__list">
             <li class="services__item">
-              <img class="services__img" src="./img/icons/mark.svg" alt="#">
+              <img class="services__img" src="./img/icons/mark.svg" alt="#" />
               <h3 class="services__title">Вёрстка проектов</h3>
-              <p class="services__descriotion">Сделаю качественную вёрстку вашего  проекта по предоставленному макету или примеру</p>
+              <p class="services__descriotion">
+                Сделаю качественную вёрстку вашего проекта по предоставленному
+                макету или примеру
+              </p>
             </li>
             <li class="services__item">
-              <img class="services__img" src="./img/icons/chat__icon.svg" alt="#">
+              <img
+                class="services__img"
+                src="./img/icons/chat__icon.svg"
+                alt="#"
+              />
               <h3 class="services__title">Поддержка сайта</h3>
-              <p class="services__descriotion">Гарантирую поддержку вашего сайта на протяжениии 30 дней после сдача проекта</p>
+              <p class="services__descriotion">
+                Гарантирую поддержку вашего сайта на протяжениии 30 дней после
+                сдача проекта
+              </p>
             </li>
           </ul>
-          
         </div>
       </section>
 
+      <section class="project">
+        <div class="container">
+          <p class="title">Мої проекти</p>
+          <ul class="project__list">
+            <li class="project__big-item">
+              <ul class="project__line">
+                <li class="project__item">
+                  <a class="project__link" href="#"></a>
+                  <div class="project__image">
+                    <img
+                      class="project__projects"
+                      src="./img/project1.jpg"
+                      alt="project1"
+                    />
+                  </div>
+                </li>
+                <li class="project__item">
+                  <a class="project__link" href="#"></a>
+                  <div class="project__image">
+                    <img
+                      class="project__projects"
+                      src="./img/project2.jpg"
+                      alt="project2"
+                    />
+                  </div>
+                </li>
+                <li class="project__item">
+                  <a class="project__link" href="#"></a>
+                  <div class="project__image">
+                    <img
+                      class="project__projects"
+                      src="./img/project3.jpg"
+                      alt="project3"
+                    />
+                  </div>
+                </li>
+              </ul>
+            </li>
+            <li class="project__big-item">
+              <ul class="project__line">
+                <li class="project__item">
+                  <a class="project__link" href="#"></a>
+                  <div class="project__image">
+                    <img
+                      class="project__projects"
+                      src="./img/project4.jpg"
+                      alt="project4"
+                    />
+                  </div>
+                </li>
+                <li class="project__item">
+                  <a class="project__link" href="#"></a>
+                  <div class="project__image">
+                    <img
+                      class="project__projects"
+                      src="./img/project5.jpg"
+                      alt="project5"
+                    />
+                  </div>
+                </li>
+                <li class="project__item">
+                  <a class="project__link" href="#"></a>
+                  <div class="project__image">
+                    <img
+                      class="project__projects"
+                      src="./img/project6.jpg"
+                      alt="project6"
+                    />
+                  </div>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="contact">
+        <div class="container">
+          <p class="title">Контакты</p>
+          <div class="contact__inner">
+            <div class="contact__social">
+              <p class="contact__text">
+                Связаться со мной можно, воспользовавшись контактной формой или
+                напрямую по номеру телефона, email, в соцсетях:
+              </p>
+
+              <a class="contact__number" href="tel:+380501111111" 
+                >+38 (050) 111 11 11</a
+              >
+              <a class="contact__mail" href="mailto:frontend-monster@email.com" 
+                >frontend-monster@email.com</a
+              >
+              <ul class="contact__list">
+                <li class="contact__item">
+                  <a class="contact__link contact__link--instagram" href="#"
+                    >instagram</a
+                  >
+                </li>
+                <li class="contact__item">
+                  <a class="contact__link contact__link--facebook" href="#"
+                    >facebook</a
+                  >
+                </li>
+                <li class="contact__item">
+                  <a class="contact__link contact__link--telegram" href="#"
+                    >telegram</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <form class="contact__form">
+              <div class="contact__form-inner">
+                <label class="contact__lable">
+                  Ваше имя
+                  <input
+                    class="contact__input"
+                    type="text"
+                    placeholder="Дмитро"
+                  />
+                </label>
+                <label class="contact__lable">
+                  Номер телефона
+                  <input
+                    class="contact__input"
+                    type="tel"
+                    placeholder="+38 (050) 111 11 11"
+                  />
+                </label>
+              </div>
+              <label class="contact__area-label">
+                Ваше сообщение
+                <textarea
+                  class="contact__textarea"
+                  name="message"
+                  placeholder="Текст вашего сообщения"
+                ></textarea>
+              </label>
+              <button class="contact__button">Отправить</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </section>
     </main>
     <script src="./index.js"></script>
   </body>
