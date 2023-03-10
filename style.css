@@ -264,15 +264,16 @@ body {
 }
 .skils__inner-all {
   display: flex;
-
   align-items: center;
 }
 .skils__img {
-  padding-bottom: 140px;
-  margin-bottom: 140px;
+  max-width: 415px;
+  width: 100%;
 }
 .skils__list {
   margin-left: 90px;
+  max-width: 600px;
+  width: 100%;
 }
 .skils__item {
   margin-top: 85.71px;
@@ -297,7 +298,9 @@ body {
 }
 .skils__graphic {
   background-color: #dbdbed;
-  width: 600px;
+  max-width: 600px;
+  min-width: 300px;
+  width: 100%;
   height: 32px;
 }
 
@@ -370,6 +373,12 @@ body {
 }
 .project__link:hover .project__image::after {
   background-image: url(./img/icons/vector.svg);
+}
+
+@media screen and (max-width: 768px){
+  .project__line{
+    flex-direction:column;
+  }
 }
 
 /* contacts */
@@ -492,4 +501,18 @@ body {
   padding: 13px;
   font-size: 14px;
   margin-top: 10px;
+}
+
+@media screen and (max-width: 768px){
+  .contact__input{
+    max-width: 120px
+  }
+
+  .contact__social{
+    max-width: 300px;
+  }
+
+  .contact__inner{
+    justify-content:flex-start;
+  }
 }
